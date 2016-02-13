@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="directoryApp">
+  <head>
+    <meta charset="utf-8">
+    <title>test 2 ng init</title>
+    <script src="../angular.min.js" charset="utf-8"></script>
+    <script src="directory.js" charset="utf-8"></script>
+  </head>
+  <body ng-controller="directoryController as dirList">
+    <input type="text" name="name" value="" ng-model="search">
+    <ul>
+      <li ng-repeat="item in dirList.list | filter: search | orderBy: age" class="person-{{item.name | lowercase}}">
+        {{item.name}} : <em>{{item.age | currency: '&yen;' : 0}}</em>
+      </li>
+    </ul>
+    <form ng-submit="dirList.addPerson()">
+      <input type="text" placeholder="Name" ng-model="dirList.name">
+      <input type="number" placeholder="Age" ng-model="dirList.age">
+      <input type="submit" placeholder="Submit">
+    </form>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>test 2 ng init</title>
+    <script src="../angular.min.js" charset="utf-8"></script>
+  </head>
+  <body ng-init="list = [{'name': 'ilyas', 'age' : 29}, {'name': 'gvlvm', 'age' : 25}]">
+    <ul>
+      <li ng-repeat="item in list">
+        {{item.name}} : {{item.age}}
+      </li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="directoryApp">
+  <head>
+    <meta charset="utf-8">
+    <title>test 2 ng init</title>
+    <script src="../angular.min.js" charset="utf-8"></script>
+    <script src="../angular-animate.js" charset="utf-8"></script>
+    <script src="../angular-ui-router.min.js" charset="utf-8"></script>
+    <script src="directory.js" charset="utf-8"></script>
+    <style media="screen">
+      .under-thirty {
+        background: red;
+        color: white;
+      }
+      .over-thirty{
+        background: blue;
+        color: white;
+      }
+      .hidden{
+        display: none;
+      }
+      ul{
+        list-style: none;
+      }
+      li.ng-enter{
+        transition:2s ease all;
+        opacity:0;
+        transform: translateX(-100%);
+      }
+      li.ng-enter.ng-enter-active{
+        opacity: 0;
+        transform: translateX(0);
+      }
+      li.ng-leave{
+        transition:0.3s ease all;
+        opacity:0;
+        transform: translateX(0);
+      }
+      li.ng-leave.ng-leave-active{
+        opacity: 0;
+        transform: translateX(100%);
+      }
+      img{
+        width: 200px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body ng-controller="directoryController as dirList">
+    <main ui-view></main>
+    
+  </body>
+</html>

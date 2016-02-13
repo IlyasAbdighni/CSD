@@ -1,0 +1,26 @@
+body{
+  p{
+    &.bg-danger{
+      padding: 10px 15px;
+      color: #333;
+    }
+  }
+  .content-header{
+    padding-bottom: 15px;
+  }
+  .view-page-table{
+      tr td:first-child{
+          text-align: right;;
+      }
+      select{
+          width: 20% !important;
+      }
+  }
+  footer.footer-container{
+      background: red !important;
+      .footer-grids{
+          background: #000 !important;
+
+      }
+  }
+}
