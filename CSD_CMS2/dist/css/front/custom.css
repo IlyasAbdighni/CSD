@@ -1,0 +1,305 @@
+body {
+  /*-- responsive media queries --*/ }
+  body a:hover {
+    text-decoration: none; }
+  body .footer-container {
+    margin: 0 auto;
+    width: 100%; }
+  body .footer-grids {
+    background: #282828;
+    padding: 3em 3em; }
+  body p.footer-gd {
+    color: #908F8F;
+    font-weight: 500;
+    font-size: 14px; }
+  body p.footer-gd a {
+    color: #fff; }
+  body p.footer-gd a:hover {
+    color: #2e99ff; }
+  body .footer {
+    float: left; }
+  body .footer h3 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+    font-family: 'Viga', sans-serif; }
+  body .footer.one {
+    width: 37%; }
+  body p.adam {
+    float: right;
+    color: #6F6E6E !important;
+    font-size: 13px !important;
+    margin-top: 20px; }
+  body .footer.three {
+    width: 23%; }
+  body .footer.one p {
+    color: #908F8F;
+    line-height: 2em;
+    font-size: 14px; }
+  body .footer.two {
+    width: 23%;
+    margin: 0 8%; }
+  body .footer.two ul {
+    margin: 0;
+    padding: 0; }
+  body .footer.two ul li {
+    list-style-type: none;
+    display: block;
+    line-height: 1.5em;
+    font-size: 14px; }
+  body .footer.two ul li a {
+    color: #908F8F;
+    display: block;
+    padding: 10px 0 12px 0px; }
+  body .footer.two ul li a.fb {
+    background: url("../images/social2.png") no-repeat 0px 4px;
+    padding: 10px 0 12px 0px; }
+  body .footer.two ul li a.fb1 {
+    background: url("../images/social1.png") no-repeat 0px 4px;
+    padding: 10px 0 12px 0px; }
+  body .footer.two ul li a.fb2 {
+    background: url("../images/social3.png") no-repeat 0px 4px;
+    padding: 10px 0 12px 0px; }
+  body .footer.two ul li a.fb3 {
+    background: url("../images/social4.png") no-repeat 0px 4px;
+    padding: 10px 0 12px 0px; }
+  body .footer.two ul li a.fb4 {
+    background: url("../images/social5.png") no-repeat 0px 4px;
+    padding: 10px 0 12px 0px; }
+  body .footer.three ul li {
+    list-style-type: none;
+    display: block;
+    color: #908F8F;
+    font-size: 14px;
+    line-height: 2.5em; }
+  body .footer.three ul {
+    padding-left: 0; }
+  body .footer.three ul li span {
+    display: block; }
+  body .footer.three ul li:nth-child(1) {
+    background: url("../images/icon2.png") no-repeat 0px 6px;
+    padding-left: 0px; }
+  body .footer.three ul li:nth-child(2) {
+    background: url("../images/icon3.png") no-repeat 0px 6px;
+    padding-left: 0px; }
+  body .footer.three ul li a {
+    background: url("../images/icon1.png") no-repeat 0px 6px;
+    padding-left: 0px;
+    display: block;
+    color: #908F8F; }
+  body .copy-right-grids {
+    padding: 20px 20px;
+    background: #211E1E; }
+  body .copy-left {
+    float: left; }
+  body .copy-right {
+    float: right; }
+  body .copy-right ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 0px;
+    border-left: 1px solid #444343;
+    padding: 0 12px; }
+  body .copy-right ul li a {
+    color: #908F8F;
+    font-size: 13px; }
+  body .copy-right ul li:nth-child(1) {
+    border: none; }
+  body .footer.two ul li a.fb:hover {
+    background: url("../images/social3hover.png") no-repeat 0px 4px; }
+  body .footer.two ul li a.fb1:hover {
+    background: url("../images/social2hover.png") no-repeat 0px 4px; }
+  body .footer.two ul li a.fb2:hover {
+    background: url("../images/social4hover.png") no-repeat 0px 4px; }
+  body .footer.two ul li a.fb3:hover {
+    background: url("../images/social5hover.png") no-repeat 0px 4px; }
+  body .footer.two ul li a.fb4:hover {
+    background: url("../images/social1hover.png") no-repeat 0px 4px; }
+  body .footer.two ul li a:hover, body .copy-right ul li a:hover, body .footer.three ul li a:hover {
+    color: #2e99ff; }
+  @media (max-width: 1440px) {
+    body .footer-container {
+      width: 100%; } }
+  @media (max-width: 1366px) {
+    body .footer.one {
+      width: 38%; }
+    body .footer-grids {
+      padding: 2.5em 2.5em; } }
+  @media (max-width: 1280px) {
+    body .main {
+      padding: 80px 0; } }
+  @media (max-width: 1080px) {
+    body .footer-container {
+      width: 80%; }
+    body .footer h3 {
+      font-size: 19px; }
+    body .copy-left {
+      float: none;
+      text-align: center;
+      margin-bottom: 15px; }
+    body .copy-right {
+      float: none;
+      text-align: center; }
+    body .footer.two ul li a.fb2, body .footer.two ul li a.fb, body .footer.two ul li a.fb1, body .footer.two ul li a.fb3, body .footer.two ul li a.fb4 {
+      padding: 10px 0 10px 38px; }
+    body .footer h3 {
+      font-size: 18px; }
+    body .main h1 {
+      font-size: 34px; } }
+  @media (max-width: 1024px) {
+    body .footer-grids {
+      padding: 2em 2em; }
+    body .footer-container {
+      width: 82%; }
+    body .main h1 {
+      font-size: 33px;
+      margin-bottom: 55px; } }
+  @media (max-width: 991px) {
+    body .footer.two {
+      width: 27%;
+      margin: 0 5%; }
+    body .footer.three {
+      width: 25%; } }
+  @media (max-width: 800px) {
+    body .footer-container {
+      width: 88%; }
+    body .footer.one p {
+      font-size: 13px; }
+    body .footer.two ul li {
+      font-size: 13px; }
+    body .footer.three ul li {
+      font-size: 13px; }
+    body .footer.three ul li:nth-child(1), body .footer.three ul li:nth-child(2), body .footer.three ul li a {
+      padding-left: 32px; }
+    body .footer h3 {
+      font-size: 16px; } }
+  @media (max-width: 768px) {
+    body .footer-container {
+      width: 90%; }
+    body p.footer-gd {
+      font-size: 13px; }
+    body .main {
+      padding: 135px 0; }
+    body .main h1 {
+      margin-bottom: 120px; } }
+  @media (max-width: 736px) {
+    body .main {
+      padding: 80px 0; }
+    body .main h1 {
+      margin-bottom: 60px; }
+    body .footer.one {
+      width: 35%; }
+    body .footer.two {
+      width: 29%;
+      margin: 0 4%; }
+    body .footer.three {
+      width: 27%; } }
+  @media (max-width: 667px) {
+    body .footer.one {
+      width: 100%; }
+    body .footer.two {
+      width: 48%;
+      margin: 0 4% 0 0; }
+    body .footer.three {
+      width: 48%; }
+    body .footer.one {
+      margin-bottom: 40px; } }
+  @media (max-width: 640px) {
+    body .main h1 {
+      font-size: 30px; }
+    body .footer-grids {
+      padding: 2.5em 2.5em; } }
+  @media (max-width: 600px) {
+    body .main {
+      padding: 65px 0; }
+    body .main h1 {
+      font-size: 28px;
+      margin-bottom: 45px; } }
+  @media (max-width: 480px) {
+    body .footer-grids {
+      padding: 1.5em 1.5em; }
+    body .copy-right-grids {
+      padding: 20px 10px; }
+    body .copy-right ul li {
+      padding: 0 10px; }
+    body p.footer-gd {
+      line-height: 1.8em; }
+    body p.adam {
+      margin-top: 9px; }
+    body .main h1 {
+      font-size: 26px;
+      margin-bottom: 38px; } }
+  @media (max-width: 414px) {
+    body .footer.two {
+      width: 100%; }
+    body .footer.three {
+      width: 100%; }
+    body .footer h3 {
+      margin-bottom: 18px; }
+    body .footer.one {
+      margin-bottom: 0; }
+    body .footer.two {
+      width: 100%;
+      margin: 30px 0; }
+    body .footer-grids {
+      padding: 2em 2em; }
+    body .main h1 {
+      font-size: 25px; }
+    body .copy-right ul li {
+      line-height: 1.8em; } }
+  @media (max-width: 375px) {
+    body .main h1 {
+      font-size: 23px; }
+    body .main {
+      padding: 60px 0; } }
+  @media (max-width: 320px) {
+    body .main h1 {
+      font-size: 21px; }
+    body .footer-grids {
+      padding: 1em 1em; }
+    body .main {
+      padding: 50px 0; } }
+  body .col_1_of_team {
+    text-align: center; }
+    body .col_1_of_team img {
+      width: 200px; }
+    body .col_1_of_team .btn1:hover {
+      background: deepskyblue; }
+  body .univeristy-list {
+    text-align: center;
+    margin-bottom: 40px; }
+    body .univeristy-list img {
+      width: 200px;
+      height: 245px; }
+    body .univeristy-list .more a:hover {
+      background: deepskyblue; }
+    body .univeristy-list .university-name {
+      min-height: 40px;
+      margin: 15px 0px 15px 0; }
+  body .about-banner {
+    background-color: rgba(119, 119, 119, 0.12); }
+  body .form-group {
+    text-align: left; }
+    body .form-group .error {
+      color: #a94442; }
+  body .university-info {
+    margin: 15px 0; }
+    body .university-info .title {
+      text-align: right; }
+  body .edit-container small.neccessay {
+    color: #d9534f; }
+  body .edit-container select {
+    width: 25%;
+    margin: 0;
+    color: #555; }
+    body .edit-container select option {
+      color: #555; }
+  body .add-btn {
+    margin: 40px 0; }
+  body .user-page {
+    margin-top: 50px; }
+    body .user-page .panel {
+      margin-bottom: 11em; }
+
+/*# sourceMappingURL=custom.css.map */

@@ -1,0 +1,15 @@
+body p.bg-danger {
+  padding: 10px 15px;
+  color: #333; }
+body .content-header {
+  padding-bottom: 15px; }
+body .view-page-table tr td:first-child {
+  text-align: right; }
+body .view-page-table select {
+  width: 20% !important; }
+body footer.footer-container {
+  background: red !important; }
+  body footer.footer-container .footer-grids {
+    background: #000 !important; }
+
+/*# sourceMappingURL=custom.css.map */

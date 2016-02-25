@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<title>this is the first jquery page.</title>
+	<link rel="stylesheet" href="css/day.css">
+
+</head>
+<body>
+
+<div class="container">
+	
+	<h1>Welcome to my website</h1>
+	<p>
+		The Politecnico di Milano (English: Polytechnic University of Milan) is the largest technical university in Italy, with about 40,000 students.[2] It offers undergraduate, graduate and higher education courses in engineering, architecture and design. Founded in 1863, it is the oldest university in Milan.
+	</p>
+
+
+	<ul class="emphasis">
+		<li>hello</li>
+		<li>hello 2</li>
+		<li>hello 3</li>
+		<li>hello 4</li>
+		<li>hello 5</li>
+	</ul>
+
+	<button data-file="day">Day</button>
+	<button data-file="night">Night</button>
+
+</div>
+	
+	
+
+	<script src="jquery.js"></script>
+	<script>
+
+		
+		
+		(function() {
+			var link = $('link');
+			$('button').on('click', function() {
+				var self = $(this),
+					stylesheet = self.data('file');
+				// var stylesheet = $(this).text().toLowerCase();
+				link.attr('href','css/' + stylesheet + '.css');
+
+				self.siblings('button')
+					.removeAttr('disabled')
+					.end()
+					.attr('disabled', 'disabled');
+			});
+		})();
+
+		
+	</script>
+</body>
+</html>

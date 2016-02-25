@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://localhost:8888/CSD_CMS/public/university/add -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CMS project</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link rel="stylesheet" href="./CMS project_files/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./CMS project_files/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="./CMS project_files/ionicons.min.css">
+    <!-- Theme style -->
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+          page. However, you can choose any other skin. Make sure you
+          apply the skin class to the body tag so the changes take effect.
+    -->
+    <link rel="stylesheet" href="./CMS project_files/skin-purple.min.css">
+    <!--  style of bootstrap editor -->
+    <link rel="stylesheet" href="./CMS project_files/bootstrap3-wysihtml5.min.css">
+
+    <link rel="stylesheet" href="./CMS project_files/style.css">
+    <link rel="stylesheet" href="./CMS project_files/custom.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- REQUIRED JS SCRIPTS -->
+
+    <!-- jQuery 1.12 -->
+    <script src="./CMS project_files/jquery-1.12.0.min.js"></script><style type="text/css"></style>
+
+    <!-- Bootstrap 3.3.5 -->
+    <script src="./CMS project_files/bootstrap.min.js"></script>
+    <!-- front App -->
+    <script src="./CMS project_files/move-top.js"></script>
+    <script src="./CMS project_files/easing.js"></script>
+    <!--Editor js-->
+    <script src="./CMS project_files/bootstrap3-wysihtml5.all.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body class="wysihtml5-supported">
+    <div class="header-b">
+     <div class="container">
+          <div class="header-main">
+               <div class="logo">
+                   <a href="http://localhost:8888/CSD_CMS/public/university/index.html"><img src="./CMS project_files/logo.png" alt=""></a>
+               </div>
+               <span class="menu"> <img src="./CMS project_files/icon.png"> </span>
+               <div class="header-navg">
+                   <ul class="res"><li><a class="" href="http://localhost:8888/CSD_CMS/public/page">Home</a></li>
+<li><a class="" href="http://localhost:8888/CSD_CMS/public/university">University</a></li>
+<li><a class="" href="http://localhost:8888/CSD_CMS/public/front_user/logout">Logout</a></li>
+<li><a class="" href="http://localhost:8888/CSD_CMS/public/front_user/index">udunig</a></li>
+<li><a class="" href="http://localhost:8888/CSD_CMS/public/tutorial">Tutorial</a></li>
+                   <script>
+                        $( "span.menu").click(function() {
+                           $(  "ul.res" ).slideToggle("slow", function() {
+                           // Animation complete.
+                           });
+                       });
+                   </script>
+               </ul></div>
+               <div class="clearfix"> </div>
+          </div>
+    </div>
+</div>
+<div class="edit-container clearfix clients">
+    <div class="col-md-8 col-sm-12 col-md-offset-2 col-sm-offset-0">
+
+        <form action="http://localhost:8888/CSD_CMS/public/university/add" method="post" accept-charset="utf-8" novalidate="novalidate">
+            <div class="form-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                          <label for="name">University name: <small class="neccessay">*</small></label>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                        <input type="text" class="form-control valid" id="name" name="name" placeholder="University Name:" value="" aria-required="true" aria-invalid="false">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                          <label for="address">University address: <small class="neccessay">*</small></label>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                        <input type="text" class="form-control " id="address" name="address" placeholder="University Address:" value="">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                          <label for="phone">University phone number: </label>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                        <input type="text" class="form-control " id="phone" name="phone" placeholder="University Phone:" value="">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                          <label for="website">University website: <small class="text-muted"><em>website address of university </em></small><small class="neccessay">*</small></label>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                        <input type="text" class="form-control " id="website" name="website" placeholder="University Logo:" value="">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h3 class="panel-title">
+                          <label for="logo">University logo: <small class="text-muted"><em>url of university logo picture(not neccessary)</em></small></label>
+                      </h3>
+                    </div>
+                    <div class="panel-body">
+                        <input type="text" class="form-control " id="logo" name="logo" placeholder="University Logo:" value="">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <label for="category">Content Category: University info</label>
+                    </h3>
+                  </div>
+                  <div class="panel-body">
+                      <ul class="wysihtml5-toolbar"><li class="dropdown">
+  <a class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown">
+    
+      <span class="fa fa-font"></span>
+    
+    <span class="current-font">Normal text</span>
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p" tabindex="-1" href="javascript:;" unselectable="on">Normal text</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" tabindex="-1" href="javascript:;" unselectable="on">Heading 1</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" tabindex="-1" href="javascript:;" unselectable="on">Heading 2</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3" tabindex="-1" href="javascript:;" unselectable="on">Heading 3</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4" tabindex="-1" href="javascript:;" unselectable="on">Heading 4</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5" tabindex="-1" href="javascript:;" unselectable="on">Heading 5</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h6" tabindex="-1" href="javascript:;" unselectable="on">Heading 6</a></li>
+  </ul>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="bold" title="CTRL+B" tabindex="-1" href="javascript:;" unselectable="on">Bold</a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="italic" title="CTRL+I" tabindex="-1" href="javascript:;" unselectable="on">Italic</a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="underline" title="CTRL+U" tabindex="-1" href="javascript:;" unselectable="on">Underline</a>
+    
+  </div>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="insertUnorderedList" title="Unordered list" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-list-ul"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="insertOrderedList" title="Ordered list" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-list-ol"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="Outdent" title="Outdent" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-outdent"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="Indent" title="Indent" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-indent"></span>
+    
+    </a>
+  </div>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-action="change_view" title="Edit HTML" tabindex="-1" href="javascript:;" unselectable="on">
+      
+        <span class="fa fa-pencil"></span>
+      
+    </a>
+  </div>
+</li>
+</ul><textarea class="form-control editor" rows="8" name="4" style="display: none;"></textarea><input type="hidden" name="_wysihtml5_mode" value="1"><iframe class="wysihtml5-sandbox" security="restricted" allowtransparency="true" frameborder="0" width="0" height="0" marginwidth="0" marginheight="0" style="display: block; border-collapse: separate; border: 1px solid rgb(204, 204, 204); clear: none; float: none; margin: 0px; outline: rgb(85, 85, 85) none 0px; outline-offset: 0px; padding: 6px 12px; position: static; top: auto; left: auto; right: auto; bottom: auto; z-index: auto; vertical-align: baseline; text-align: start; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset; border-radius: 4px; width: 781.328px; height: 174px; background-color: rgb(255, 255, 255);"></iframe>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <label for="category">Content Category: Before Arrival</label>
+                    </h3>
+                  </div>
+                  <div class="panel-body">
+                      <ul class="wysihtml5-toolbar"><li class="dropdown">
+  <a class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown">
+    
+      <span class="fa fa-font"></span>
+    
+    <span class="current-font">Normal text</span>
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p" tabindex="-1" href="javascript:;" unselectable="on">Normal text</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" tabindex="-1" href="javascript:;" unselectable="on">Heading 1</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" tabindex="-1" href="javascript:;" unselectable="on">Heading 2</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3" tabindex="-1" href="javascript:;" unselectable="on">Heading 3</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4" tabindex="-1" href="javascript:;" unselectable="on">Heading 4</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5" tabindex="-1" href="javascript:;" unselectable="on">Heading 5</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h6" tabindex="-1" href="javascript:;" unselectable="on">Heading 6</a></li>
+  </ul>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="bold" title="CTRL+B" tabindex="-1" href="javascript:;" unselectable="on">Bold</a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="italic" title="CTRL+I" tabindex="-1" href="javascript:;" unselectable="on">Italic</a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="underline" title="CTRL+U" tabindex="-1" href="javascript:;" unselectable="on">Underline</a>
+    
+  </div>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="insertUnorderedList" title="Unordered list" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-list-ul"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="insertOrderedList" title="Ordered list" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-list-ol"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="Outdent" title="Outdent" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-outdent"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="Indent" title="Indent" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-indent"></span>
+    
+    </a>
+  </div>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-action="change_view" title="Edit HTML" tabindex="-1" href="javascript:;" unselectable="on">
+      
+        <span class="fa fa-pencil"></span>
+      
+    </a>
+  </div>
+</li>
+</ul><textarea class="form-control editor" rows="8" name="1" style="display: none;"></textarea><input type="hidden" name="_wysihtml5_mode" value="1"><iframe class="wysihtml5-sandbox" security="restricted" allowtransparency="true" frameborder="0" width="0" height="0" marginwidth="0" marginheight="0" style="display: block; border-collapse: separate; border: 1px solid rgb(204, 204, 204); clear: none; float: none; margin: 0px; outline: rgb(85, 85, 85) none 0px; outline-offset: 0px; padding: 6px 12px; position: static; top: auto; left: auto; right: auto; bottom: auto; z-index: auto; vertical-align: baseline; text-align: start; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset; border-radius: 4px; width: 781.328px; height: 174px; background-color: rgb(255, 255, 255);"></iframe>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <label for="category">Content Category: After Arrival</label>
+                    </h3>
+                  </div>
+                  <div class="panel-body">
+                      <ul class="wysihtml5-toolbar"><li class="dropdown">
+  <a class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown">
+    
+      <span class="fa fa-font"></span>
+    
+    <span class="current-font">Normal text</span>
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p" tabindex="-1" href="javascript:;" unselectable="on">Normal text</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" tabindex="-1" href="javascript:;" unselectable="on">Heading 1</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" tabindex="-1" href="javascript:;" unselectable="on">Heading 2</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3" tabindex="-1" href="javascript:;" unselectable="on">Heading 3</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4" tabindex="-1" href="javascript:;" unselectable="on">Heading 4</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5" tabindex="-1" href="javascript:;" unselectable="on">Heading 5</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h6" tabindex="-1" href="javascript:;" unselectable="on">Heading 6</a></li>
+  </ul>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="bold" title="CTRL+B" tabindex="-1" href="javascript:;" unselectable="on">Bold</a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="italic" title="CTRL+I" tabindex="-1" href="javascript:;" unselectable="on">Italic</a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="underline" title="CTRL+U" tabindex="-1" href="javascript:;" unselectable="on">Underline</a>
+    
+  </div>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="insertUnorderedList" title="Unordered list" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-list-ul"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="insertOrderedList" title="Ordered list" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-list-ol"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="Outdent" title="Outdent" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-outdent"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="Indent" title="Indent" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-indent"></span>
+    
+    </a>
+  </div>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-action="change_view" title="Edit HTML" tabindex="-1" href="javascript:;" unselectable="on">
+      
+        <span class="fa fa-pencil"></span>
+      
+    </a>
+  </div>
+</li>
+</ul><textarea class="form-control editor" rows="8" name="2" style="display: none;"></textarea><input type="hidden" name="_wysihtml5_mode" value="1"><iframe class="wysihtml5-sandbox" security="restricted" allowtransparency="true" frameborder="0" width="0" height="0" marginwidth="0" marginheight="0" style="display: block; border-collapse: separate; border: 1px solid rgb(204, 204, 204); clear: none; float: none; margin: 0px; outline: rgb(85, 85, 85) none 0px; outline-offset: 0px; padding: 6px 12px; position: static; top: auto; left: auto; right: auto; bottom: auto; z-index: auto; vertical-align: baseline; text-align: start; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset; border-radius: 4px; width: 781.328px; height: 174px; background-color: rgb(255, 255, 255);"></iframe>
+                  </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <label for="category">Content Category: Scholarships</label>
+                    </h3>
+                  </div>
+                  <div class="panel-body">
+                      <ul class="wysihtml5-toolbar"><li class="dropdown">
+  <a class="btn btn-default dropdown-toggle btn-sm" data-toggle="dropdown">
+    
+      <span class="fa fa-font"></span>
+    
+    <span class="current-font">Normal text</span>
+    <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p" tabindex="-1" href="javascript:;" unselectable="on">Normal text</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1" tabindex="-1" href="javascript:;" unselectable="on">Heading 1</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h2" tabindex="-1" href="javascript:;" unselectable="on">Heading 2</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h3" tabindex="-1" href="javascript:;" unselectable="on">Heading 3</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h4" tabindex="-1" href="javascript:;" unselectable="on">Heading 4</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h5" tabindex="-1" href="javascript:;" unselectable="on">Heading 5</a></li>
+    <li><a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h6" tabindex="-1" href="javascript:;" unselectable="on">Heading 6</a></li>
+  </ul>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="bold" title="CTRL+B" tabindex="-1" href="javascript:;" unselectable="on">Bold</a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="italic" title="CTRL+I" tabindex="-1" href="javascript:;" unselectable="on">Italic</a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="underline" title="CTRL+U" tabindex="-1" href="javascript:;" unselectable="on">Underline</a>
+    
+  </div>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="insertUnorderedList" title="Unordered list" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-list-ul"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="insertOrderedList" title="Ordered list" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-list-ol"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="Outdent" title="Outdent" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-outdent"></span>
+    
+    </a>
+    <a class="btn btn-sm btn-default" data-wysihtml5-command="Indent" title="Indent" tabindex="-1" href="javascript:;" unselectable="on">
+    
+      <span class="fa fa-indent"></span>
+    
+    </a>
+  </div>
+</li>
+<li>
+  <div class="btn-group">
+    <a class="btn btn-sm btn-default" data-wysihtml5-action="change_view" title="Edit HTML" tabindex="-1" href="javascript:;" unselectable="on">
+      
+        <span class="fa fa-pencil"></span>
+      
+    </a>
+  </div>
+</li>
+</ul><textarea class="form-control editor" rows="8" name="3" style="display: none;"></textarea><input type="hidden" name="_wysihtml5_mode" value="1"><iframe class="wysihtml5-sandbox" security="restricted" allowtransparency="true" frameborder="0" width="0" height="0" marginwidth="0" marginheight="0" style="display: block; border-collapse: separate; border: 1px solid rgb(204, 204, 204); clear: none; float: none; margin: 0px; outline: rgb(85, 85, 85) none 0px; outline-offset: 0px; padding: 6px 12px; position: static; top: auto; left: auto; right: auto; bottom: auto; z-index: auto; vertical-align: baseline; text-align: start; box-sizing: border-box; box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset; border-radius: 4px; width: 781.328px; height: 174px; background-color: rgb(255, 255, 255);"></iframe>
+                  </div>
+              </div>
+            </div>
+
+                      <input type="submit" class="btn btn-info" value="Submit">
+          <a href="http://localhost:8888/CSD_CMS/public/university" class="btn btn-info"> Cancel </a>
+        </form>    </div>
+
+</div>
+
+<script src="./CMS project_files/jquery.validate.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+    // $("#login-form").validate();
+    $(document).ready(function() {
+     // executes when HTML-Document is loaded and DOM is ready
+        $("form").validate({
+             rules: {
+                 name: {
+                     required: true,
+                     minlength: 6
+                 },
+                 address: {
+                     required: true,
+                 },
+                 website: {
+                     required: true,
+                     url: true,
+                 },
+                 phone: {
+                     required: true,
+                     minlength: 7,
+                     maxlength: 15,
+                 },
+                 logo: {
+                     url: true,
+                 },
+             },
+             messages: {
+                 name: "Please enter university name!",
+                 address: "Please enter university address!",
+                 website: "Please enter university website url!",
+                 phone: "Please enter university phone!",
+             }
+         });
+
+        $(".editor").wysihtml5({
+            toolbar: {
+                "font-styles": true
+                ,"emphasis": true
+                ,"lists": true
+                ,"html": true
+                ,"link": false
+                ,"image": false
+                ,"color": false
+                ,"blockquote": false
+                ,"outdent": false
+                ,"indent": false
+                ,"size": 'sm'
+                ,"fa": true
+            }
+        });
+    });
+
+</script>
+
+
+<!--footer start here-->
+<div class="strip"> </div>
+
+<div class="footer-container clearfix">
+    <div class="footer-grids clearfix">
+        <div class="footer one clearfix">
+            <h3>More About Company</h3>
+            <p> Nemo enim ipsam voluptatem quia
+            voluptas sit aspernatur aut odit aut fugit,
+            sed quia consequuntur magni dolores eos qui
+            ratione voluptatem sequi nesciunt.</p>
+            <p class="adam">- Patrick Victoria, CEO</p>
+            <div class="clear"></div>
+        </div>
+        <div class="footer two clearfix">
+            <h3>WEBSITE LINKS</h3>
+            <ul class="res">
+<li><a class="" href="http://localhost:8888/CSD_CMS/public/">Home</a></li>
+<li><a class="active" href="http://localhost:8888/CSD_CMS/public/university">University</a></li>
+<li><a class="" href="http://localhost:8888/CSD_CMS/public/about">About us</a></li>
+<li><a class="" href="http://localhost:8888/CSD_CMS/public/login">Login</a></li>
+<li><a class="" href="http://localhost:8888/CSD_CMS/public/register">Register</a></li>
+</ul>
+        </div>
+        <div class="footer three clearfix">
+            <h3>Contact Information</h3>
+            <ul>
+                <li>The company name <span>Lorem ipsum dolor,</span>Glasglow Dr 40 Fe 72.  </li>
+                <li>1234567890  </li>
+                <li><a href="mailto:info@example.com">udunig@hotmail.com</a> </li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="copy-right-grids clearfix">
+        <div class="copy-left">
+                <p class="footer-gd">© 29/02/2016 Complex System Design Class Project by <a href="https://w3layouts.com/" target="_blank">Keep it simple GROUP</a></p>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
+
+<script>
+    jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){
+            event.preventDefault();
+            $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+    });
+</script>
+
+
+</body></html>
